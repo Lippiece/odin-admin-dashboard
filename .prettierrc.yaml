@@ -1,0 +1,7 @@
+---
+singleQuote: false
+useTabs: true
+semi: true
+singleAttributePerLine: true
+parser: babel
+arrowParens: avoid
