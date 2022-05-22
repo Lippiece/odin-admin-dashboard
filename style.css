@@ -69,7 +69,10 @@ body {
 }
 
 main {
-  padding: 1em;
-  background-color: #222;
-  grid-area: main;
+	padding: 1em;
+	background-color: #222;
+	grid-area: main;
+	display: grid;
+	gap: 1em;
+	grid: 1fr / 5fr 2fr;
 }
