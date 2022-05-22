@@ -82,3 +82,18 @@ main {
 	grid: repeat(auto-fit, minmax(200px, 1fr)) / repeat(auto-fit, minmax(150px, 1fr));
 	gap: 1em;
 }
+
+.right {
+	display: grid;
+	grid: 1fr 1fr /1fr;
+}
+
+.anno {
+	display: grid;
+	grid: 0.3fr 1fr 1fr/1fr;
+}
+
+.trend {
+	display: grid;
+	grid: 0.3fr 1fr 1fr/1fr;
+}
