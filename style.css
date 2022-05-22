@@ -76,3 +76,9 @@ main {
 	gap: 1em;
 	grid: 1fr / 5fr 2fr;
 }
+
+.content {
+	display: grid;
+	grid: repeat(auto-fit, minmax(200px, 1fr)) / repeat(auto-fit, minmax(150px, 1fr));
+	gap: 1em;
+}
