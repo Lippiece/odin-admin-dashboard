@@ -64,7 +64,8 @@ body {
 }
 
 .down > ul {
-  display: grid;
+	display: grid;
+	grid: 1fr/ 1fr 1fr 1fr;
 }
 
 main {
