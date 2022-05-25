@@ -6,34 +6,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
+		<script
+				src="//code.iconify.design/1/1.0.6/iconify.min.js"
+				defer
+		></script>
+		<script
+				src="script.js"
+				defer
+		></script>
     <title>Lippiece's Admin dashboard</title>
   </head>
 
   <body>
     <sidebar class="sidebar">
-      <h2>Dashboard</h2>
+			<h2><span
+						class="iconify"
+						id="dashboard"
+						data-icon="mdi-view-dashboard"
+				></span>Dashboard</h2>
       <ul>
         <li>
           <a href="example.html">Example</a>
         </li>
-        <li>Home</li>
-        <li>Profile</li>
-        <li>Messages</li>
-        <li>History</li>
-        <li>Tasks</li>
-        <li>Communities</li>
+				<li><span
+							class="iconify"
+							data-icon="mdi-home"
+					></span>
+					Home </li>
+				<li><span
+							class="iconify"
+							data-icon="mdi-account"
+					></span>
+					Profile</li>
+				<li><span
+							class="iconify"
+							data-icon="mdi-message"
+					></span>
+					Messages</li>
+				<li><span
+							class="iconify"
+							data-icon="mdi-history"
+					></span>
+					History</li>
+				<li><span
+							class="iconify"
+							data-icon="mdi-work"
+					></span>
+					Tasks</li>
+				<li><span
+							class="iconify"
+							data-icon="mdi-people"
+					></span>
+					Communities</li>
       </ul>
       <ul>
-        <li>Settings</li>
-        <li>Support</li>
-        <li>Privacy</li>
+				<li><span
+							class="iconify"
+							data-icon="mdi-settings"
+					></span>
+					Settings</li>
+				<li><span
+							class="iconify"
+							data-icon="mdi-support"
+					></span>
+					Support</li>
+				<li><span
+							class="iconify"
+							data-icon="mdi-lock"
+					></span>
+					Privacy</li>
       </ul>
     </sidebar>
     <nav class="nav">
-      <div class="up">
+			<div class="top">
         <form action="get">
-          <label for="search">loopa</label>
+					<label for="search"><span
+								class="iconify"
+								data-icon="mdi-search"
+						></span>
+						Search</label>
           <input type="search" name="" id="search" />
         </form>
         <a href="">bell</a>
