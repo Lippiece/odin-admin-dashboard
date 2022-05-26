@@ -106,6 +106,16 @@ form {
 	grid     : 1fr/ 1fr 1fr;
 }
 
+.top ul {
+	grid-area: right;
+	display  : grid;
+	grid     : 1fr/1fr 1fr 1fr;
+	align-items: center;
+	justify-content: end;
+	gap: 0.5em;
+	font-size : 20px;
+}
+
 }
 
 .down {
