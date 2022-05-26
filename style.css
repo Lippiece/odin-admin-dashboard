@@ -195,9 +195,14 @@ main {
 }
 
 .content {
-	display: grid;
-	grid: repeat(auto-fit, minmax(200px, 1fr)) / repeat(auto-fit, minmax(150px, 1fr));
-	gap: 1em;
+	display        : grid;
+	justify-content: center;
+	align-content  : center;
+	font-weight    : 100;
+
+	/* Setting the grid for the content. */
+	grid: repeat(auto-fit, clamp(180px, 35vh, 100% - 30px)) / repeat(auto-fit, clamp(130px, 15vw, 250px));
+	gap : 1em;
 }
 
 .right {
