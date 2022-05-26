@@ -149,7 +149,9 @@ input[type="search"]::-webkit-search-cancel-button {
 
 .down {
 	display: grid;
-	grid: 1fr / 1fr 1fr;
+	grid   :
+		"left . right" 1fr
+		/ 1fr 3fr 2fr;
 }
 
 .down > ul {
