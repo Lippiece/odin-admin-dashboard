@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+				http-equiv="X-UA-Compatible"
+				content="IE=edge"
+		/>
+		<meta
+				name="viewport"
+				content="width=device-width, initial-scale=1.0"
+		/>
+		<link
+				rel="stylesheet"
+				href="reset.css"
+		/>
+		<link
+				rel="stylesheet"
+				href="style.css"
+		/>
 		<script
 				src="//code.iconify.design/1/1.0.6/iconify.min.js"
 				defer
@@ -14,20 +27,20 @@
 				src="script.js"
 				defer
 		></script>
-    <title>Lippiece's Admin dashboard</title>
-  </head>
+		<title>Lippiece's Admin dashboard</title>
+	</head>
 
-  <body>
-    <sidebar class="sidebar">
+	<body>
+		<sidebar class="sidebar">
 			<h2><span
 						class="iconify"
 						id="dashboard"
 						data-icon="mdi-view-dashboard"
 				></span>Dashboard</h2>
-      <ul>
-        <li>
-          <a href="example.html">Example</a>
-        </li>
+			<ul>
+				<li>
+					<a href="example.html">Example</a>
+				</li>
 				<li><span
 							class="iconify"
 							data-icon="mdi-home"
@@ -58,8 +71,8 @@
 							data-icon="mdi-people"
 					></span>
 					Communities</li>
-      </ul>
-      <ul>
+			</ul>
+			<ul>
 				<li><span
 							class="iconify"
 							data-icon="mdi-settings"
@@ -75,17 +88,22 @@
 							data-icon="mdi-lock"
 					></span>
 					Privacy</li>
-      </ul>
-    </sidebar>
-    <nav class="nav">
+			</ul>
+		</sidebar>
+		<nav class="nav">
 			<div class="top">
-        <form action="get">
+				<form action="get">
 					<button type="submit"><span
 								class="iconify"
 								data-icon="mdi-search"
 						></span>
 					</button>
 					<input
+							type="search"
+							name=""
+							id="search"
+					/>
+				</form>
 				<ul>
 					<li>
 						<a href="">
@@ -106,22 +124,29 @@
 					</li>
 				</ul>
 			</div>
-      <div class="down">
-        <div>
-          <p>Hi there,</p>
-          <h1>name</h1>
-        </div>
-        <ul>
-          <li>New</li>
-          <li>Upload</li>
-          <li>Share</li>
-        </ul>
-      </div>
-    </nav>
-    <main>
-      <article class="content">
-        <div class="block">
-          <h3>Header 1</h3>
+			<div class="down">
+				<div class="left">
+					<img
+							class="avatar"
+							src="https://cdn-icons.flaticon.com/png/128/706/premium/706807.png?token=exp=1653567230~hmac=bfa7f934d462d2ab57d99fecd387aa32"
+							alt="avatar"
+					/>
+					<div>
+						<p>Hi there,</p>
+						<h2>name</h2>
+					</div>
+				</div>
+				<ul>
+					<li>New</li>
+					<li>Upload</li>
+					<li>Share</li>
+				</ul>
+			</div>
+		</nav>
+		<main>
+			<article class="content">
+				<div class="block">
+					<h3>Header 1</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 					<span class="actions">
 						<a href=""><span
@@ -237,6 +262,8 @@
 							></span></a>
 					</span>
 				</div>
+			</article>
+			<div class="right">
 				<article class="anno">
 					<h2>Header</h2>
 					<div>
@@ -249,42 +276,43 @@
 					</div>
 				</article>
 				<article class="trend">
-				<h3>Our heroes</h3>
-				<div class="guy">
-					<div id="profile1"><img
-								src="./img/profile1.jpg"
-								alt="Profile pic 1"
-						>
-					</div>
-					<div>
-						<p class="Nick">Nick</p>
-						<p class="desc">desc</p>
-					</div>
-				</div>
-				<div class="guy">
-					<div id="profile2"><img
-								src="./img/profile2.jpg"
-								alt="Profile pic 2"
-						>
-					</div>
-					<div>
-						<p class="Nick">Nick</p>
-						<p class="desc">desc</p>
+					<h3>Our heroes</h3>
+					<div class="guy">
+						<div id="profile1"><img
+									src="./img/profile1.jpg"
+									alt="Profile pic 1"
+							>
 						</div>
+						<div>
+							<p class="Nick">Nick</p>
+							<p class="desc">desc</p>
 						</div>
-						<div class="guy">
-							<div id="profile3"><img
-										src="./img/profile3.jpg"
-										alt="Profile pic 3"
-								>
 					</div>
-					<div>
-						<p class="Nick">Nick</p>
-						<p class="desc">desc</p>
+					<div class="guy">
+						<div id="profile2"><img
+									src="./img/profile2.jpg"
+									alt="Profile pic 2"
+							>
 						</div>
+						<div>
+							<p class="Nick">Nick</p>
+							<p class="desc">desc</p>
 						</div>
+					</div>
+					<div class="guy">
+						<div id="profile3"><img
+									src="./img/profile3.jpg"
+									alt="Profile pic 3"
+							>
+						</div>
+						<div>
+							<p class="Nick">Nick</p>
+							<p class="desc">desc</p>
+						</div>
+					</div>
 				</article>
 			</div>
-    </main>
-  </body>
+		</main>
+	</body>
+
 </html>
