@@ -177,6 +177,13 @@ input[type="search"]::-webkit-search-cancel-button {
 	text-align     : center;
 }
 
+.down li {
+	background-color: #b3caf53b;
+	border-radius   : 1em;
+	width           : 4em;
+	padding         : 0.5em 0.2em;
+}
+
 main {
 	padding: 1em;
 	background-color: #222;
