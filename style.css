@@ -158,7 +158,12 @@ input[type="search"]::-webkit-search-cancel-button {
 	display: grid;
 	grid: 1fr/1fr 1fr;
 	grid-area: left;
-	grid: 1fr/ 1fr 1fr 1fr;
+}
+
+.left > p {
+	font-size: 8px;
+}
+
 }
 
 main {
