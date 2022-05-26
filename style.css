@@ -215,6 +215,9 @@ main {
 	grid            : 1fr 4fr 1fr/1fr;
 }
 
+.block > * {
+	margin: 0.3em;
+}
 .right {
 	display: grid;
 	grid: 1fr 1fr /1fr;
