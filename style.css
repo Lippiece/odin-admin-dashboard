@@ -17,8 +17,10 @@ body {
 		/ 150px 1fr;
 }
 
-.sidebar {
-	padding: 1em;
+.iconify {
+	box-shadow: 0 0 1px white;
+	color     : white;
+}
 
 	/* height: 100vh; */
 
