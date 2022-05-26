@@ -238,6 +238,10 @@ main p {
 	margin-right: 1em;
 }
 
+.right > article {
+	padding         : 0.4em;
+	background-color: #333;
+	border-radius   : 1em;
 }
 
 .anno {
