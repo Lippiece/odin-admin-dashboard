@@ -22,10 +22,19 @@ body {
 	color     : white;
 }
 
-	/* height: 100vh; */
+h3 {
+	color      : white;
+	text-align : center;
+	font-weight: bold;
+}
 
-	/* position: sticky; */
-	background-color: rgb(53 34 12);
+h2 {
+	color      : white;
+	text-align : center;
+	font-weight: bolder;
+	font-size  : larger;
+}
+
 	grid-area: sidebar;
 	display: grid;
 	gap: 1em;
