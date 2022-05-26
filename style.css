@@ -226,6 +226,11 @@ main {
 	font-size: 20px;
 }
 
+main p {
+	font-size: 14px;
+	padding  : 0.5em;
+}
+
 .right {
 	display: grid;
 	grid: 1fr 1fr /1fr;
