@@ -60,20 +60,33 @@ h2 {
 	display: grid;
 	grid   : repeat(auto-fit, 2em) / 1fr;
 }
+
+.nav {
+	font-size  : 14px;
+	padding    : 0.3em 1em;
+
+	/* Creating a glow below. */
 	background:
 		linear-gradient(
 			to bottom,
-			#222,
-			#222,
-			#222,
-			#222,
-			#222,
-			#222,
-			#222,
-			#222,
-			#222,
-			#333
+			#333,
+			#333,
+			#333,
+			#333,
+			#333,
+			#333,
+			#333,
+			#333,
+			#333,
+			#555
 		);
+
+	/* Setting the nav to be a grid with 2 rows and 1 column. */
+	grid-area: nav;
+	align-items: center;
+	display  : grid;
+	grid     : 1fr 1fr /1fr;
+	gap      : 0.5em;
 }
 
 .up {
