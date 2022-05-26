@@ -185,12 +185,13 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 main {
-	padding: 1em;
+	background-image: url("./img/bg.jpg");
+	padding         : 1em;
 	background-color: #222;
-	grid-area: main;
-	display: grid;
-	gap: 1em;
-	grid: 1fr / 5fr 2fr;
+	grid-area       : main;
+	display         : grid;
+	gap             : 0.5em;
+	grid            : 1fr / 5fr 2fr;
 }
 
 .content {
