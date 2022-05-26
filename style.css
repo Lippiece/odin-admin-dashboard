@@ -53,9 +53,9 @@ h2 {
 	text-shadow: 0 0 0.4em wheat;
 }
 
-.nav {
-	padding: 1em;
-	grid-area: nav;
+#dashboard {
+	font-size: 30px;
+}
 	display: grid;
 	grid: 1fr 1fr /1fr;
 	gap: 0.5em;
