@@ -218,6 +218,14 @@ main {
 .block > * {
 	margin: 0.3em;
 }
+
+.actions {
+	display  : grid;
+	grid     : 1fr/ 1fr 1fr 1fr;
+	gap      : 1em;
+	font-size: 20px;
+}
+
 .right {
 	display: grid;
 	grid: 1fr 1fr /1fr;
