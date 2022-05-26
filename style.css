@@ -139,6 +139,10 @@ input:hover {
 	box-shadow: 0 0 0.5em wheat;
 }
 
+input[type="search"]::-webkit-search-cancel-button {
+	display: none;
+}
+
 }
 
 .down {
