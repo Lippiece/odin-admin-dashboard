@@ -164,6 +164,17 @@ input[type="search"]::-webkit-search-cancel-button {
 	font-size: 8px;
 }
 
+.down > ul {
+	color          : white;
+	font-weight    : 100;
+
+	/* Setting the grid for the `.down > ul` element. */
+	grid-area: right;
+	display        : grid;
+	grid           : 1fr/ 0.5fr 0.5fr 0.5fr;
+	justify-content: center;
+	align-items    : center;
+	text-align     : center;
 }
 
 main {
