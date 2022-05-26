@@ -251,5 +251,20 @@ main p {
 
 .trend {
 	display: grid;
-	grid: 0.3fr 1fr 1fr/1fr;
+}
+
+.guy {
+	display    : grid;
+	grid       : 1fr /3em 1fr;
+	align-items: center;
+}
+
+.desc {
+	opacity: 0.6;
+}
+
+.guy img {
+	width        : 3em;
+	height       : 3em;
+	border-radius: 50%;
 }
