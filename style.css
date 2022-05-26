@@ -205,6 +205,16 @@ main {
 	gap : 1em;
 }
 
+
+.block {
+	padding         : 0.2em;
+	background-color: #111;
+	border-radius   : 10px;
+	box-shadow      : -0.2em 0 0.1em;
+	display         : grid;
+	grid            : 1fr 4fr 1fr/1fr;
+}
+
 .right {
 	display: grid;
 	grid: 1fr 1fr /1fr;
