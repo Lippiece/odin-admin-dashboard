@@ -56,9 +56,10 @@ h2 {
 #dashboard {
 	font-size: 30px;
 }
+.sidebar > ul {
 	display: grid;
-	grid: 1fr 1fr /1fr;
-	gap: 0.5em;
+	grid   : repeat(auto-fit, 2em) / 1fr;
+}
 	background:
 		linear-gradient(
 			to bottom,
