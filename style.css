@@ -98,6 +98,14 @@ h2 {
 	align-items: center;
 }
 
+
+form {
+	grid-area: left;
+	display  : grid;
+	align-items: center;
+	grid     : 1fr/ 1fr 1fr;
+}
+
 }
 
 .down {
