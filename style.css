@@ -48,6 +48,9 @@ h2 {
 	grid     : 5em 20em 1fr/1fr;
 }
 
+.sidebar ul > *:hover,
+.sidebar h2:hover {
+	text-shadow: 0 0 0.4em wheat;
 }
 
 .nav {
