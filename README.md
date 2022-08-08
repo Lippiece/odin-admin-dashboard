@@ -1,4 +1,4 @@
-# Odin Project "Admin dashboard" project
+# [Odin Project "Admin dashboard" project](https://lippiece.github.io/odin-admin-dashboard/)
 The focus of the project was using Grid to position all or most of the elements.
 
 ## Skills used:
